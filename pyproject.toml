@@ -1,0 +1,28 @@
+[project]
+name = "feature-agent"
+version = "0.1.0"
+description = "RAG-based dialogue agent for creating SAFe features (prototype)"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.7",
+    "requests>=2.31",
+    "ollama>=0.4",
+    "chromadb>=0.5",
+    "streamlit>=1.40",
+    "transformers>=4.45",
+    "torch>=2.4",
+    "sentencepiece>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["feature_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

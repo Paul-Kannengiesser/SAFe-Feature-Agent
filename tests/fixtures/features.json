@@ -1,0 +1,131 @@
+{
+  "startAt": 0,
+  "maxResults": 200,
+  "total": 7,
+  "issues": [
+    {
+      "key": "DEMO-10",
+      "fields": {
+        "summary": "REP-PDF | PDF Export of Inspection Reports",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Open"
+        },
+        "description": "h2. h2. Description\r\n\r\nInspectors can export a finished inspection report as a PDF document.\r\nh2. h2. Benefit Hypothesis\r\n\r\nExporting reports as PDF reduces the number of support requests for printed reports by 30%.\r\nh2. h2. Acceptance Criteria\r\n * When an inspection is finished, the export button is enabled\r\n * The PDF is generated within 5 seconds\r\nh2. h2. In Scope\r\n * PDF layout based on the corporate template\r\nh2. h2. Out of Scope\r\n * Digital signatures",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 2"
+        },
+        "customfield_10256": "DEMO-1"
+      }
+    },
+    {
+      "key": "DEMO-11",
+      "fields": {
+        "summary": "REP-SIG | Digital Signature for Reports",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Open"
+        },
+        "description": "h2. Description\r\n\r\nReports can be signed digitally by the responsible inspector.\r\nh2. Benefit Hypothesis\r\n\r\nDigitally signed reports are accepted by authorities without a paper copy.",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 2"
+        },
+        "customfield_10256": "DEMO-1"
+      }
+    },
+    {
+      "key": "DEMO-12",
+      "fields": {
+        "summary": "REP-ARC | Report Archive Search",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "In Progress"
+        },
+        "description": "h2. Description\r\n\r\nInspectors can search the archive of past inspection reports by licence plate.\r\nh2. Benefit Hypothesis\r\n\r\nFaster access to past reports shortens the preparation time of re-inspections.\r\nh2. Acceptance Criteria\r\n * Search results appear within 2 seconds",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 2"
+        },
+        "customfield_10256": "DEMO-1"
+      }
+    },
+    {
+      "key": "DEMO-20",
+      "fields": {
+        "summary": "ACC-PWR | Password Reset via E-Mail",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Open"
+        },
+        "description": "h2. Description\r\n\r\nCustomers who forgot their password can reset it via an e-mail link.\r\nh2. Benefit Hypothesis\r\n\r\nCustomers can log in again without contacting support, which reduces access-related tickets.\r\nh2. Acceptance Criteria\r\n * The reset e-mail arrives within two minutes\r\n * The link is valid for 24 hours",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 3"
+        },
+        "customfield_10256": "DEMO-2"
+      }
+    },
+    {
+      "key": "DEMO-21",
+      "fields": {
+        "summary": "ACC-2FA | Two-Factor Authentication",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Open"
+        },
+        "description": "h2. Description\r\n\r\nCustomers can protect their account with a second factor.\r\nh2. Benefit Hypothesis\r\n\r\nTwo-factor authentication reduces account takeovers.",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 3"
+        },
+        "customfield_10256": "DEMO-2"
+      }
+    },
+    {
+      "key": "DEMO-30",
+      "fields": {
+        "summary": "SCH-ONL | Online Appointment Booking",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Done"
+        },
+        "description": "h2. Description\r\n\r\nCustomers can book an inspection appointment online.\r\nh2. Benefit Hypothesis\r\n\r\nOnline booking reduces phone calls to the service centre.\r\nh2. Acceptance Criteria\r\n * Only free slots are offered",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": {
+          "value": "PI 1"
+        },
+        "customfield_10256": "DEMO-3"
+      }
+    },
+    {
+      "key": "DEMO-31",
+      "fields": {
+        "summary": "SCH-REM | Appointment Reminder",
+        "issuetype": {
+          "name": "Feature"
+        },
+        "status": {
+          "name": "Open"
+        },
+        "description": "Customers receive a reminder one day before their appointment.",
+        "updated": "2026-10-01T10:00:00.000+0200",
+        "customfield_16355": null,
+        "customfield_10256": "DEMO-3"
+      }
+    }
+  ]
+}
